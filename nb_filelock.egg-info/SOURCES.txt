@@ -1,0 +1,7 @@
+README.md
+setup.py
+nb_filelock/__init__.py
+nb_filelock.egg-info/PKG-INFO
+nb_filelock.egg-info/SOURCES.txt
+nb_filelock.egg-info/dependency_links.txt
+nb_filelock.egg-info/top_level.txt
