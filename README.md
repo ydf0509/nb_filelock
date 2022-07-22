@@ -121,7 +121,7 @@ if __name__ == '__main__':
 
 多个脚本都并发写入一个txt文件可以这样。
 ```
-with FileLock('D:/testx.lock'):
+with FileLock('D:/testyy.lock'):
     with open("yourtxt.txt","a") as f:
            f.write("xxxx")
 ```
