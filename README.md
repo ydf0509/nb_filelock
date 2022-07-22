@@ -115,3 +115,13 @@ if __name__ == '__main__':
     
 
 ```
+
+
+
+
+多个脚本都写入一个txt文件可以这样。
+```
+with FileLock('D:/testx.lock'):
+    with open("yourtxt.txt") as f:
+           f.write("xxxx")
+```
