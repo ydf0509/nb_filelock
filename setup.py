@@ -39,7 +39,7 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries'
     ],
-    install_requires=[
+    install_requires=['portalocker==2.3.2'
     ]
 )
 """
