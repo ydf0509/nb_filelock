@@ -11,7 +11,7 @@ print(filepath)
 
 setup(
     name='nb_filelock',  #
-    version="0.7",
+    version="0.8",
     description=(
         'filelock ,it can run on linux and windows'
     ),
@@ -47,7 +47,7 @@ setup(
 python setup.py sdist upload -r pypi
 
 
-python setup.py sdist && twine upload dist/nb_filelock-0.7.tar.gz
+python setup.py sdist && twine upload dist/nb_filelock-0.8.tar.gz
 twine upload dist/*
 
 
